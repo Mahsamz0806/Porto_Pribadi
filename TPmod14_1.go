@@ -38,5 +38,6 @@ func main() {
 		fmt.Println("Rp ", HargaBuku)
 	} else if JumlahBuku > 10 && MemberShip == "N" {
 		Diskon = HargaBuku - int(float64(HargaBuku)*(0.05))
+		fmt.Println("Rp ", Diskon)
 	}
 }
